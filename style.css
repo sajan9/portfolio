@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+*{font-family: 'Recursive', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background: #b7b6b9;
+    font-family: montserrat;
+}
+nav{
+    background: #223646 ;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size:35px ;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+a.active,a:hover{
+    background: #000305;
+    transition: 2s;
+}
+img{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 300px;
+    border-radius: 50%;
+}
+.center{
+    width: 100%;
+    height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.bio{
+    text-align: center;
+    padding:50px;
+    color: #032e4e;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.bio > h1,h2,p,h3{
+    padding-top: 20px;
+}
+.social{
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+    height: 70px;
+}
+.pro{
+    text-align: left;
+    padding: 20px;
+}
+.gau{
+    text-align: left;
+}
+.container{
+    border-radius: 10px;
+    position:absolute ;
+    width: 1000px;
+    height: 130px;
+    background: #92989e;
+
+}
+.container > h2,p{
+    padding: 30px;
+}
+.blog{
+    text-align: left;
+}
+.prg{
+    text-align: left;
+}.last{
+     padding-bottom: 100px;
+}
+
